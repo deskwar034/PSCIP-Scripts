@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name         PSCIP - Auditor V7.7 (Tabela 5 Automático)
+// @name         PSCIP - Auditor V7.8 (com atualização)
 // @namespace    http://tampermonkey.net/
-// @version      7.7
-// @description  Auditor automático com suporte à Tabela 5 (área ≤ 900m² e H ≤ 10m). Executa ao carregar a página e ao clicar na aba de Segurança. Sem painel flutuante.
+// @version      7.8
+// @description  Auditor automático - com atualização...
+// @author       Geraldo Dias
 // @match        *://sistemas.bombeiros.ms.gov.br/analise-pscip/analisar.xhtml?projeto=*
+// @updateURL    https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/auditor.js
+// @downloadURL  https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/auditor.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
@@ -342,7 +345,7 @@
             const motivo = area > 900
                 ? `área de ${area} m² (> 900 m²)`
                 : `altura de ${altura} m (> 10 m)`;
-            const notaTabNormal = `ℹ️ <strong>Tabelas normais aplicadas:</strong> Ocupação <strong>${divisao}</strong> — ${motivo}. Exigências completas em vigor.`;
+            const notaTabNormal = `ℹ️ <strong>Tabela da ocupação aplicada:</strong> Ocupação <strong>${divisao}</strong> — ${motivo}. Exigências completas em vigor.`;
             listaNotasGerais = [notaTabNormal, ...listaNotasGerais];
         }
 
