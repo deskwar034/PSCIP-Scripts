@@ -1,9 +1,11 @@
 // ==UserScript==
-// @name         PSCIP - Banco de Dados (V9.3 - Tabela 5)
+// @name         PSCIP - Banco de Dados (V9.4 - autoupdate)
 // @namespace    http://tampermonkey.net/
-// @version      9.3
-// @description  Template limpo com exemplos genéricos (X-1, X-2) para inserção de dados reais.
-// @match        *://sistemas.bombeiros.ms.gov.br/analise-pscip/*
+// @version      9.4
+// @updateURL    https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/banco.js
+// @downloadURL  https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/banco.js
+// @description  Banco de dados atualizavel com tabela 5
+// @match        *://sistemas.bombeiros.ms.gov.br/analise-pscip/analisar.xhtml?projeto=*
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
