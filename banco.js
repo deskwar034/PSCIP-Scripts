@@ -2,8 +2,8 @@
 // @name         PSCIP - Banco de Dados (V9.5 - autoupdate)
 // @namespace    http://tampermonkey.net/
 // @version      9.5
-// @updateURL    https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/banco.js
-// @downloadURL  https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/banco.js
+// @updateURL    https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/refs/heads/main/banco.js
+// @downloadURL  https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/refs/heads/main/banco.js
 // @description  Banco de dados atualizavel com tabela 5
 // @match        *://sistemas.bombeiros.ms.gov.br/analise-pscip/analisar.xhtml?projeto=*
 // @run-at       document-start
