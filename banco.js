@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         PSCIP - Banco de Dados (V9.4 - autoupdate)
+// @name         PSCIP - Banco de Dados (V9.5 - autoupdate)
 // @namespace    http://tampermonkey.net/
 // @version      9.5
 // @updateURL    https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/banco.js
