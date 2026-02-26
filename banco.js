@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         PSCIP - Banco de Dados (V9.4 - autoupdate)
+// @name         PSCIP - Banco de Dados (V9.5 - autoupdate)
 // @namespace    http://tampermonkey.net/
-// @version      9.4
+// @version      9.5
 // @updateURL    https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/banco.js
 // @downloadURL  https://raw.githubusercontent.com/deskwar034/PSCIP-Scripts/main/banco.js
 // @description  Banco de dados atualizavel com tabela 5
@@ -13,7 +13,7 @@
 (function() {
     'use strict';
 
-    console.log("📂 Carregando Banco de Dados V9.3 (Template)...");
+    console.log("📂 Carregando Banco de Dados V9.5...");
 
     // ====================================================================
     // 1. DICIONÁRIO DE IDs (FIXO - NÃO APAGAR)
