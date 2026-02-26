@@ -521,6 +521,24 @@
     { id: ID.CHUVEIROS, minH: 23.01 }, // Exigido acima de 23m
     { id: ID.FUMACA, minH: 30.01 }     // Exigido acima de 30m
 ],
+        "I-3": [
+    ID.VIATURAS,
+    ID.ESTRUTURAL,
+    ID.COMP_HORIZ,
+    ID.CMAR,
+    ID.SAIDAS_GERAL,
+    ID.PLANO,
+    ID.BRIGADA,
+    ID.ILUMINACAO,
+    ID.ALARME,
+    ID.SINALIZACAO,
+    ID.EXTINTORES,
+    ID.HIDRANTES,
+    { id: ID.COMP_VERT, minH: 12.01 }, // Exigido acima de 12m
+    { id: ID.DETECCAO, minH: 12.01 },   // Exigido acima de 12m
+    { id: ID.CHUVEIROS, minH: 12.01 },  // Exigido acima de 12m
+    { id: ID.FUMACA, minH: 30.01 }      // Exigido acima de 30m
+],
 
         "J-1": [
     ID.VIATURAS,
@@ -993,6 +1011,18 @@
     [ID.FUMACA]: "Nota 4: Acima de 60 metros de altura;"
 },
 
+        "I-3": {
+    [ID.COMP_HORIZ]: [
+        { maxH: 23, text: "Nota 1: Pode ser substituída por sistema de chuveiros automáticos." }
+    ],
+    [ID.SAIDAS_GERAL]: [
+        { minH: 30.01, text: "Nota 2: Deve haver Elevador de Emergência para altura maior que 60 m." }
+    ],
+    [ID.COMP_VERT]: [
+        { minH: 12.01, maxH: 30, text: "Nota 3: Pode ser substituído por sistema de controle de fumaça, detecção de incêndio e chuveiros automáticos, exceto para as compartimentações das fachadas e selagens dos shafts e dutos de instalações." }
+    ]
+},
+
 "J-2": {
     [ID.COMP_HORIZ]: "Nota 1: Pode ser substituído por sistema de chuveiros automáticos;",
     [ID.COMP_VERT]: [
@@ -1160,7 +1190,7 @@
     "c. Observar ainda as exigências para os riscos específicos das respectivas Normas Técnicas."
 ],
 
-"I-1, I-2": [
+"I-1, I-2, I-3": [
     "a. As instalações elétricas e o SPDA devem estar em conformidade com as normas técnicas oficiais;",
     "b. Para subsolos ocupados ver Tabela 7;",
     "c. Observar ainda as exigências para os riscos específicos das respectivas Normas Técnicas."
